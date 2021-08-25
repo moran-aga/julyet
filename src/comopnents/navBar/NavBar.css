@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-container {
+  margin-left: 1rem;
+}
+
+#logo {
+  height: 7rem;
+}
+
+.catagories-container {
+  display: flex;
+}
+
+.nav-catagory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container {
+  display: flex;
+}
+.nav-icon {
+  display: flex;
+  justify-content: space-between;
+}
