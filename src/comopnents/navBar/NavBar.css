@@ -8,10 +8,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.logo-container {
-  margin-left: 1rem;
+  position: sticky;
+  margin-bottom: 5px;
 }
 
 #logo {
@@ -24,7 +22,11 @@
 
 .nav-catagory {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  margin-left: 18px;
+  padding: 0px 12px;
+  white-space: pre;
 }
 
 .icons-container {
@@ -33,4 +35,6 @@
 .nav-icon {
   display: flex;
   justify-content: space-between;
+  margin: 0px 20px;
+  font-size: 25px;
 }
